@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\base">
+      <UniqueIdentifier>{87eb4555-3a2a-463c-a8c3-0298bab06501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\base">
+      <UniqueIdentifier>{8cc7dd72-7637-4448-9e93-089a6be27d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player">
+      <UniqueIdentifier>{18fa9266-9697-4e22-8142-e71e5dcb5170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\player">
+      <UniqueIdentifier>{95c49957-d704-4b7a-8a69-44528030ca8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player\botton">
+      <UniqueIdentifier>{35634df2-4f55-43d5-93cf-7b23c03f4d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\player\botton">
+      <UniqueIdentifier>{a68088e2-1afc-432c-b102-a52ad1033e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\base\sound">
+      <UniqueIdentifier>{1091d762-b933-4b57-a62f-8995088fe89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\base\sound">
+      <UniqueIdentifier>{51c7d72e-1a4d-4f28-90f3-24f5abdb3fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\base\sound\soundEffect">
+      <UniqueIdentifier>{738aaa13-e520-4000-a81d-eba5125940ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\base\sound\soundEffect">
+      <UniqueIdentifier>{01c17a40-2114-459a-928d-c6d4b8b1eeda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basic.cpp">
+      <Filter>ソース ファイル\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>ソース ファイル\base</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\base</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\base</Filter>
+    </ClCompile>
+    <ClCompile Include="buttonIcon.cpp">
+      <Filter>ソース ファイル\player\botton</Filter>
+    </ClCompile>
+    <ClCompile Include="fastDraw2D.cpp">
+      <Filter>ソース ファイル\base</Filter>
+    </ClCompile>
+    <ClCompile Include="soundControl.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\base\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSoundClass.cpp">
+      <Filter>ソース ファイル\base\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="soundEffect.cpp">
+      <Filter>ソース ファイル\base\sound\soundEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="SaiDelay.cpp">
+      <Filter>ソース ファイル\base\sound\soundEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="SaiFadeIn.cpp">
+      <Filter>ソース ファイル\base\sound\soundEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="waveOut.cpp">
+      <Filter>ソース ファイル\base\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="plot.cpp">
+      <Filter>ソース ファイル\base\sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basic.h">
+      <Filter>ヘッダー ファイル\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>ヘッダー ファイル\base</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\base</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\base</Filter>
+    </ClInclude>
+    <ClInclude Include="buttonIcon.h">
+      <Filter>ヘッダー ファイル\player\botton</Filter>
+    </ClInclude>
+    <ClInclude Include="fastDraw2D.h">
+      <Filter>ヘッダー ファイル\base</Filter>
+    </ClInclude>
+    <ClInclude Include="soundControl.h">
+      <Filter>ヘッダー ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSoundClass.h">
+      <Filter>ヘッダー ファイル\base\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\base\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="soundEffect.h">
+      <Filter>ヘッダー ファイル\base\sound\soundEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="SaiDelay.h">
+      <Filter>ヘッダー ファイル\base\sound\soundEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="SaiFadeIn.h">
+      <Filter>ヘッダー ファイル\base\sound\soundEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="waveOut.h">
+      <Filter>ヘッダー ファイル\base\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="plot.h">
+      <Filter>ヘッダー ファイル\base\sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
